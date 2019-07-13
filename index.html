@@ -9,62 +9,25 @@
   <link rel="stylesheet" href="./app.css">
   <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta property="og:url"                content="https://niawjunior.github.io/me.io/" />
+  <meta property="og:type"               content="article" />
+  <meta property="og:title"              content="เรียนจบแล้วพี่ๆ ทำงานอะไร?" />
+  <meta property="og:description"        content="" />
+  <meta property="og:image"              content="images/me.png" />
 </head>
 <body>
-  <section class="section-0">
-    <div class="p-4">
-      <div >
-        <h4 id="parent" class="text-center mt-4" style="font-size: 20px;">เรียนจบแล้วพี่ๆ ทำงานอะไร?</h4>
-      </div>
-      <hr style="width:230px;"/>
-    </div>
-    <div class="text-center mt-2">
-      <img class="img-profile" src="images/me.jpg" alt="">
-    </div>
-    <div class="section-0-body mt-2 p-3">
-      <h4 class="text-center text-body">ชื่อจริง พสุพล บุญแสน ชื่อเล่น เนี้ยว อายุ 25 ปี</h4>
-      <h4 class="text-center text-body">คณะ ครุศาสตร์อุตสาหกรรม สาขา วิศวกรรมคอมพิวเตอร์</h4>
-      <h4 class="text-center text-body mt-3">TEC#7 ห้อง 2</h4>
-      <div class="mt-5 text-center">
-        <a href="#" class="scroll-down" address="true"></a>
-      </div>
-    </div>
-  </section>
-  <section class="section-1">
-    <div class="p-4">
-      <br/>
-      <h4 class="text-section date">1 ตุลาคม 2017 ถึง 30 พฤศจิกายน 2018</h4>
-      <div class="text-center" style="margin-top: 50px;">
-        <img class="section-image-1" src="images/domecloud.png" alt="">
-        <p class="text-section mt-5">บิรษัท DomeCloud</p>
-        <p class="text-section mt-2">ตำแหน่ง Web Programmer</p>
-        <p class="text-section mt-2">สิ่งที่ทำ Frontend, Backend, Blockchain</p>
-      </div>
-    </div>
-  </section>
-  <section class="section-2">
-      <div class="p-4">
-        <br/>
-        <h4 class="text-section date">1 พฤศจิกายน 2018 ถึง 28 กุมภาพันธ์ 2019</h4>
-        <div class="text-center" style="margin-top: 50px;">
-          <img class="section-image-1" src="images/allianz.png" alt="">
-          <p class="text-section mt-5">บิรษัท Allianz Technology</p>
-          <p class="text-section mt-2">ตำแหน่ง Frontend Developer</p>
-          <p class="text-section mt-2">สิ่งที่ทำ Frontend</p>
-        </div>
-      </div>
-    </section>
-  <section class="section-3"></section>
-  <section class="section-4"></section>
+  <div id="main"></div>
+  
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </html>
 <script>
- $(function() {
+  $(function() {
     $('.scroll-down').click (function() {
       $('html, body').animate({scrollTop: $('section.section-1').offset().top }, 'slow');
       return false;
     });
   });
-</script>
+  </script>
+  <script src="./app.js"></script>
